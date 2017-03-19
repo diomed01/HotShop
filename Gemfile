@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-source 'https://rubygems.org' 
-ruby "2.4.0" 
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails' 
-gem 'rails', '5.0.1' 
-# Use sqlite3 as the database for Active Record 
-gem 'sqlite3' 
-=======
-
 source 'https://rubygems.org' 
 
 
@@ -15,7 +5,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.6' 
 # Use sqlite3 as the database for Active Record 
 ###gem 'sqlite3' 
->>>>>>> back-to-first-commit
 # Use SCSS for stylesheets 
 gem 'sass-rails', '~> 5.0' 
 # Use Uglifier as compressor for JavaScript assets 
@@ -37,11 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.6' 
 gem "paperclip", "~> 5.0.0" 
 
-<<<<<<< HEAD
-=======
 
 group :production do 
-	# gem 'pg', '~> 0.20.0' 
+	#gem 'pg', '~> 0.20.0' 
 	gem 'rails_12factor' 
 end 
 
@@ -49,7 +36,6 @@ group :development, :test do
 	gem 'sqlite3' 
 end 
 
->>>>>>> back-to-first-commit
 # Use ActiveModel has_secure_password 
 # gem 'bcrypt', '~> 3.1.7' 
 
@@ -61,24 +47,15 @@ end
 
 group :development, :test do 
 # Call 'byebug' anywhere in the code to stop execution and get a debugger console 
-<<<<<<< HEAD
-gem 'byebug' 
-=======
-  gem 'byebug' 
->>>>>>> back-to-first-commit
+	gem 'byebug' 
 end 
 
 group :development do 
 # Access an IRB console on exception pages or by using <%= console %> in views 
-<<<<<<< HEAD
 gem 'web-console', '~> 2.0' 
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring 
-gem 'spring' 
-=======
-	gem 'web-console', '~> 2.0' 
-
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring 
 	gem 'spring' 
->>>>>>> back-to-first-commit
 end 
+
+
